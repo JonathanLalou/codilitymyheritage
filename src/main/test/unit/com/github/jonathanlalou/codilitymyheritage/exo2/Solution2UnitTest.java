@@ -11,6 +11,8 @@ public class Solution2UnitTest {
     public void solution2() {
         assertEquals(6, solution.solution(new int[]{1, 3, -3}));
         assertEquals(4, solution.solution(new int[]{4, 3, 2, 5, 1, 1}));
+        assertEquals(15, solution.solution(new int[]{6, -9}));
+        assertEquals(50, solution.solution(new int[]{6, -9, 18, 9, 9, 12, -32}));
     }
 
     @Test
