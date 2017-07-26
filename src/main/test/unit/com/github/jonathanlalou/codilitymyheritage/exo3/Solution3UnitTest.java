@@ -50,6 +50,20 @@ public class Solution3UnitTest {
     }
 
     @Test
+    public void solution_4_4() throws Exception {
+        int[] A = new int[]{2, 2, 5, 6};
+        int[] B = new int[]{1, 1, 1, 2};
+        assertEquals(2, solution.solution(A, B));
+    }
+
+    @Test
+    public void solution_4_5() throws Exception {
+        int[] A = new int[]{2, 5, 6};
+        int[] B = new int[]{1, 1, 2};
+        assertEquals(2, solution.solution(A, B));
+    }
+
+    @Test
     public void solution_5() throws Exception {
         int[] A = new int[]{1};
         int[] B = new int[]{32, 18, 1, 2};
